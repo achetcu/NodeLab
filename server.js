@@ -1,11 +1,11 @@
-// use math Random whole number
-// use index to pick from an array
+
 const http = require("http");
 const user = require('./facts');
 
 const onRequest = (request, response) => {
+let randomValue = Math.floor(Math.random() * 4);
 response.writeHead(200, { "Content-type": "text/plain" });
-response.write(`${user.randomValue}` );
+response.write(`${user.fact[randomValue]}` );
 response.end();
 }
 

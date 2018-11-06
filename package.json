@@ -1,0 +1,23 @@
+{
+  "name": "nodelab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "facts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achetcu/NodeLab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achetcu/NodeLab/issues"
+  },
+  "homepage": "https://github.com/achetcu/NodeLab#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
